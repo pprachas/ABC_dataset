@@ -4,10 +4,10 @@ This directory contains code for graph preprocessing before being used in Pytorc
 This code can be applied to all sub-datasets. 
 
 All code is run with the following versions:
-	* Python 3.8.6
-	* Pytorch: 1.8.1 + cuda 11.1
-	* Pytorch Geometric: 1.7.2 
-	* networkx: 2.5.1
+* Python 3.8.6
+* Pytorch: 1.8.1 + cuda 11.1
+* Pytorch Geometric: 1.7.2 
+* networkx: 2.5.1
 The codes in this section assumes that the graphs are in networkx format. See folders Graphs to convert domain geometry or json files to networkx graphs. 
 ## Conversion of networkx graph to PyG dataset (pyg_graphs.py)
 This code is for changing the networkx graphs to PyG datasets. More information on PyG 1.7.2 datasets are [here](https://pytorch-geometric.readthedocs.io/en/1.7.2/notes/create_dataset.html).

@@ -1,6 +1,6 @@
 # Graph codes
 
-This directory contains code for to obtain graphs used in the manuscript. **Note that only networkx graphs are generated here. Code to preprocess and prepare the networkx graphs for the ML model are in the fold ML.**
+This directory contains code for to obtain graphs used in the manuscript. **Note that only networkx graphs are generated here. Code to preprocess and prepare the networkx graphs for the ML model are in the fold ML.** If the json files are obtained from the dataset, then look at section Json Files. 
 
 ## Graph generation from image (graph_gen.py)
 
@@ -33,6 +33,7 @@ This code is used to normalize feature vectors to help training.
 ## Exact Representations (subdataset1_exact.py and subdataset2_exact.py)
 This code generates perfect representations for subdataset1 and subdataset2 in our manuscript. 
 
-
+## Json Files (json_to_nx.py)
+This code converts the json files obtaimed from the dataset into networkx graphs. The obtained graphs can be used in the next section (ML).
  
 

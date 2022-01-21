@@ -21,3 +21,5 @@ For example:
 > python3 subdataset_fea.py 5 3 20
 
 is running a simulation on mesh83.xml. 
+
+This method makes it easy for error detection.

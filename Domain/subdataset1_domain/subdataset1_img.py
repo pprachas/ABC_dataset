@@ -34,5 +34,5 @@ for ii in range(0,x.shape):
  
 img = np.asarray(img)
 
-np.save('sundataset1/img/img.npy',img)
+np.save('subdataset1/img/img.npy',img)
  

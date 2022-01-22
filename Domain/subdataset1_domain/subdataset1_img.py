@@ -28,5 +28,11 @@ def img_gen(L,w,x,l,ii):
   
   return img
 
+img = []
 for ii in range(0,x.shape):
-  img = img_gen(L,w,x,l,ii) #img ouput, save  as array of images if want to convert to graph
+  img.append(img_gen(L,w,x,l,ii)) #img ouput, save  as array of images if want to convert to graph
+ 
+img = np.asarray(img)
+
+np.save('sundataset1/img/img.npy',img)
+ 

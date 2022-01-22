@@ -2,6 +2,8 @@
 
 This directory contains code for meshing, FEA, example domain generation and ML
 
+For the domain files: x.txt and y.txt contains the x and y coordinate of the ring respectively, while outer.txt and inner.txt gives the ring outer thickness and inner thickness (as a ratio of outer thickness) respectively. Note that the coordinates for all domains are stored as image arrays where the origin is in the top left. The coordinates have to flipped accordingly to generate the domain for meshing.
+
 ## Meshing (subdataset3_mesh.py)
 This code generates mesh to use in FEA. 
 If using the directory to run code, we recommend to download the geoemtry dataset (subdataset1_geo) and place the file here in this directory.

@@ -15,8 +15,8 @@ p = 5 # Ring thickness
 for ii in range(0,25000):
 #---------------------------Import files-------------------------------------#
   # Change to directory of dowloaded txt files in folder subdataset2_geo
-  f_x = 'intersect_donut_bulk/img/subdataset2_geo/x/x'+str(ii)+'.txt' # import x coordinates
-  f_y = 'intersect_donut_bulk/img/subdataset2_geo/y/y'+str(ii)+'.txt' # import y coordinates
+  f_x = 'subdataset2_geo/x'+str(ii)+'.txt' # import x coordinates
+  f_y = 'subdataset2_geo/y'+str(ii)+'.txt' # import y coordinates
 
   x = np.loadtxt(f_x)
   y = np.loadtxt(f_y)

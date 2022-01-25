@@ -2,7 +2,7 @@
 
 This directory contains code for meshing, FEA, example domain generation and ML
 
-For the domain files:
+For the domain files (subdataset1_geometry.zip):
 x.txt indicates the centers of each block and l.txt gives the length of each block. Each block is stacked top to bottom. Note that the coordinates for all domains are stored as image arrays where the origin is in the top left. The coordinates have to flipped accordingly to generate the domain for meshing.
 ## Meshing (subdataset1_mesh.py)
 This code generates mesh to use in FEA. 

@@ -32,7 +32,7 @@ For example:
 
 > python3 train_model.py 3 4 1
 
-Will train sparse graphs using 20,000 data points with the 10th initalization. The subdataset will depend on the directory of teh graphs. 
+Will train sparse graphs using 20,000 data points with the 10th initalization. The subdataset will depend on the directory of the graphs. 
 
 
 Note that in the case of initlalization, the code expects the initialization code and state saved(init_models.py) to be run first.  
@@ -41,7 +41,10 @@ Note that in the case of initlalization, the code expects the initialization cod
 This code gets the test predictions from all 10 initalization seeds as class labels and probabilies and can be used for hard voting and soft voting.
 
 ## Ensemble methods (ensemble.py)
-This code gives you the hard voting and soft voting resuitls from the 10 initializations. 
+This code gives you the hard voting and soft voting results from the 10 initializations. 
+
+## GNNExplainer (gnn_explain.py)
+This code interprets our GNN models as an edge mask. More information of the original paper on GNNExplainer and how GNNExplainer works is [here](https://arxiv.org/pdf/1903.03894.pdf). The GNNExplainer code uses the Pytorch Geometric implementation of GNNExplainer. 
 
  
 

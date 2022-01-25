@@ -2,7 +2,9 @@
 
 This directory contains code for meshing, FEA, example domain generation and ML
 
-For the domain files: folder x and folder y gives the x an y coordinates for each ring with inner radius of 0.15w and outer radius of 0.25w Note that the coordinates for all domains are stored as image arrays where the origin is in the top left. The coordinates have to flipped accordingly to generate the domain for meshing. 
+For the domain files (subdataset2_geometry.zip): 
+
+folder x and folder y gives the x an y coordinates for each ring with inner radius of 0.15w and outer radius of 0.25w Note that the coordinates for all domains are stored as image arrays where the origin is in the top left. The coordinates have to flipped accordingly to generate the domain for meshing. 
 
 ## Meshing (subdataset2_mesh.py)
 This code generates mesh to use in FEA. 

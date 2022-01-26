@@ -7,7 +7,9 @@ This directory contains code for to obtain graphs used in the manuscript. **Note
 This code is for generating graphs with the domain generated images with subdatax_geo.zip
 
 The code is run with the following versions:
+
 	* networkx: 2.5.1
+	* skimage: 0.18.1
 
 Segmentation to replicate sparse, medium, and dense node densities as in paper:
  Subdataset 1:
@@ -24,6 +26,8 @@ Segmentation to replicate sparse, medium, and dense node densities as in paper:
  * sparse: 700 segments
  * medium: 1000 segments
  * dense: 2300 segments
+
+Note that for subdataset 1, the images have to be resized from 5x40 to 100x800 before segmentation. This step is provided in the code and is not necessary for subdatasets 2 and subdatasets 3.
 
 Note that the graph features are not normalized. Normalizing the features help with training.
 

@@ -8,8 +8,8 @@ This code is for generating graphs with the domain generated images with subdata
 
 The code is run with the following versions:
 
-	* networkx: 2.5.1
-	* skimage: 0.18.1
+* networkx: 2.5.1
+* skimage: 0.18.1
 
 Segmentation to replicate sparse, medium, and dense node densities as in paper:
  Subdataset 1:

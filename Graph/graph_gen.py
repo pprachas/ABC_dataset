@@ -38,16 +38,23 @@ w = 100
 n_segment = 2300
 
 #--------------------import images-------------------------#
-img_raw = np.load('subdataset1_geo/simple_bulk/img/img.npy') # file path to array of image
+img = np.load('subdataset1_geo/simple_bulk/img/img.npy') # file path to array of image; change as needed to other subdatasets
 
 G_og = []
 G_rx = []
 G_ry = []
 G_rxy = []
 
+#-------------------------For subdataset 1, resize image to 100x800-------------------------------------------------------#
+# Note: skip this step for subdataset 2 and subdataet 3
+new_img = []
+for ii in range(0,len(img_raw)): 
+  new_img.append(img_as_bool(resize(image = img_split[num][ii],output_shape = (800,100),order = 0))[int(L/40):int(L-L/40),:])
+img = new_img
+#--------------------------------------------------------------------------------------------------------------------------#
 
 
-
+#----------------------Graph creation--------------------------------------------------------------------------------------#
 for ii in range(0,25000):
     
     #----------create graph from original image-----------------------------#

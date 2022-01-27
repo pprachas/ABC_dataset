@@ -7,7 +7,7 @@ The ABC data consists of spatially heterogenous beams under compression with fix
 
 Link to dataset is coming soon!
 
-If using the geometry files, then start from folders Domain - FEA (if you need labels) - Graph &#8594 ML.
+If using the geometry files, then start from folders Domain - FEA (if you need labels) - Graph - ML.
 If using the json files, then start from folders FEA (if you need labels ) - Graph - ML.
 
 The FEA folder can be skiiped if labels are already obtained. 

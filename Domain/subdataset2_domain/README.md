@@ -8,7 +8,7 @@ folder x and folder y gives the x an y coordinates for each ring with inner radi
 
 ## Meshing (subdataset2_mesh.py)
 This code generates mesh to use in FEA. 
-If using the directory to run code, we recommend to download the geoemtry dataset (subdataset*_geometry) and place the file here in this directory.
+If using the directory to run code, we recommend to download the geoemtry dataset (subdataset2_geometry) and place the file here in this directory.
 
 The code is run with the following versions:
 
@@ -17,7 +17,7 @@ The code is run with the following versions:
 
 ## Image generation (subdataset2_img.py)
 
-This is the code to generate the domain geometry as an image from the files in subdataset1_geo
+This is the code to generate the domain geometry as an image from the files in subdataset2_geo
 The code is run with the following versions:
 
 * Python version: Any should work

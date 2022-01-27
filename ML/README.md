@@ -15,7 +15,7 @@ This code is for changing the networkx graphs to PyG datasets. More information 
 Once the graphs are in PyG datasets, the remaining codes can be used. 
 
 ## PointNet++ Implementation (Pointnet_layer.py)
-This code is our implementation of the PointNet++ layer as well as the ML architecture.
+This code is our implementation of the PointNet++ layer as well as the ML architecture. THe original paper of PointNet++ can be found [here](https://arxiv.org/abs/1706.02413).
 
 ## Initialization (init_models.py)
 This code initializes the weights for the 10 seeds used in our manuscript. Tyhe initialized weights are saved and will be used during training. 
@@ -27,13 +27,13 @@ This code also gives you validation accuracy.
 Input arguments: 
  1. Sparse Medium or dense graphs (1, 2, 3, for sparse medium dense respectively)
  2. Number of training datapoints (1, 2, 3, 4 for 5k, 10k, 15k, 20k datapoints repectively)
- 3. Initalization seed (1-10)
+ 3. Initialization seed (1-10)
 
 For example:
 
 > python3 train_model.py 3 4 1
 
-Will train sparse graphs using 20,000 data points with the 10th initalization. The subdataset will depend on the directory of the graphs. 
+Will train sparse graphs using 20,000 data points with the 10th initialization. The subdataset will depend on the directory of the graphs. 
 
 
 Note that in the case of initlalization, the code expects the initialization code and state saved(init_models.py) to be run first.  

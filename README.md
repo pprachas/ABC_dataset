@@ -21,7 +21,7 @@ The Domain folder contains code to generate the domain geometry for ABC dataset.
 The Domain folder contains code to labels for ABC dataset. More deatils of the code are contained in the folder.
 
 ## Graph
-The Graph folder contains code to generate graphsfrom domain geometry and json files.  More deatils of the code are contained in the folder.
+The Graph folder contains code to generate graphs from domain geometry and json files.  More deatils of the code are contained in the folder.
 
 ## ML
 The ML folder contains code for our  protocol for train, validation and test split, Point++ implementation, ML architecture, and voting.  More details of the code are contained in the folder.

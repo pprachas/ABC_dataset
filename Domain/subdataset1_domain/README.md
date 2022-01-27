@@ -8,7 +8,7 @@ x.txt indicates the centers of each block and l.txt gives the length of each blo
 
 ## Meshing (subdataset1_mesh.py)
 This code generates mesh to use in FEA. 
-If using the directory to run code, we recommend to download the geometry dataset (subdataset1_geo) and place the file here in this directory.
+If using the directory to run code, we recommend to download the geometry dataset (subdataset1_geometry) and place the file here in this directory.
 
 The code is run with the following versions:
 
@@ -17,7 +17,7 @@ The code is run with the following versions:
 
 ## Image generation (subdataset1_img.py)
 
-This is the code to generate the domain geometry as an image from the files in subdataset1_geo
+This is the code to generate the domain geometry as an image from the files in subdataset1_geometry
 The code is run with the following versions:
 
 * Python version: Any should work

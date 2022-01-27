@@ -4,7 +4,7 @@ This directory contains code for to obtain graphs used in the manuscript. **Note
 
 ## Graph generation from image (graph_gen.py)
 
-This code is for generating graphs with the domain generated images with subdatax_geo.zip
+This code is for generating graphs with the domain generated images with subdatax_geometry.zip
 
 The code is run with the following versions:
 

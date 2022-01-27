@@ -46,8 +46,8 @@ This code gets the test predictions from trained models all 10 initalization see
 ## Ensemble methods (ensemble.py)
 This code gives you the hard voting and soft voting results from the 10 initializations. 
 
-## GNNExplainer (gnn_explain.py)
-This code interprets our GNN models as an edge mask. More information of the original paper on GNNExplainer and how GNNExplainer works is [here](https://arxiv.org/pdf/1903.03894.pdf). The GNNExplainer code uses the Pytorch Geometric implementation of GNNExplainer. 
+## GNNExplainer (gnn_explain.py + model_explain.py)
+The code  gnn_explainer.py interprets our GNN models as an edge mask. More information of the original paper on GNNExplainer and how GNNExplainer works is [here](https://arxiv.org/pdf/1903.03894.pdf). The GNNExplainer code uses the Pytorch Geometric implementation of GNNExplainer. 
 
  
 

@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #---------------------Import coordinate file-------------------------#
-f_x = 'simple_bulk/img/subdataset1_geo/x.txt'
-f_l = 'simple_bulk/img/subdataset1_geo/l.txt'
+f_x = 'simple_bulk/img/subdataset1_geometry/x.txt'
+f_l = 'simple_bulk/img/subdataset1_geometry/l.txt'
 
 x = np.loadtxt(f_x, dtype = int) 
 l = np.loadtxt(f_l, dtype = int)

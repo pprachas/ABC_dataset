@@ -17,7 +17,7 @@ The code is run with the following versions:
 
 ## Image generation (subdataset2_img.py)
 
-This is the code to generate the domain geometry as an image from the files in subdataset2_geo
+This is the code to generate the domain geometry as an image from the files in subdataset2_geometry
 The code is run with the following versions:
 
 * Python version: Any should work

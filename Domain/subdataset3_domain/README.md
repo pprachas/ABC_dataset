@@ -8,7 +8,7 @@ x.txt and y.txt contains the x and y coordinate of the ring respectively, while 
 
 ## Meshing (subdataset3_mesh.py)
 This code generates mesh to use in FEA. 
-If using the directory to run code, we recommend to download the geometry dataset (subdataset1_geo) and place the file here in this directory.
+If using the directory to run code, we recommend to download the geometry dataset (subdataset3_geometry) and place the file here in this directory.
 
 The code is run with the following versions:
 
@@ -17,7 +17,7 @@ The code is run with the following versions:
 
 ## Image generation (subdataset3_img.py)
 
-This is the code to generate the domain geometry as an image from the files in subdataset1_geo
+This is the code to generate the domain geometry as an image from the files in subdataset3_geometry
 The code is run with the following versions:
 
 * Python version: Any should work

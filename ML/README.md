@@ -28,6 +28,7 @@ Input arguments:
  1. Sparse Medium or dense graphs (1, 2, 3, for sparse medium dense respectively)
  2. Number of training datapoints (1, 2, 3, 4 for 5k, 10k, 15k, 20k datapoints repectively)
  3. Initalization seed (1-10)
+
 For example:
 
 > python3 train_model.py 3 4 1

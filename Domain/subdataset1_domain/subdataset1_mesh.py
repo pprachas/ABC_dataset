@@ -11,8 +11,8 @@ r_max = w/10
 r_min = w/15
 #----------------------------------Import Files---------------------#
 # Change to directory of dowloaded txt files in folder subdataset1_geo
-f_x = 'subdataset1_geo/x.npy'
-f_l = 'subdataset1_geo/l.npy'
+f_x = 'subdataset1_geometry/x.npy'
+f_l = 'subdataset1_geometry/l.npy'
 
 x = np.load(f_x)
 l = np.load(f_l)

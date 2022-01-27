@@ -4,7 +4,7 @@ This FEA code (with a few modifications as commented in the code) can be used fo
 
 * Different length and width of beam for subdatasets:
 	* l = 40.0 and w = 5.0 for subdatset 1
-	* l = 800 and w = 10.0 for subdataset 2 
+	* l = 800 and w = 10.0 for subdataset 2 and subdataset 3
 * Changing the directory for corresponding dataset:
 
 The code is run with the following versions:

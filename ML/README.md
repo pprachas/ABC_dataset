@@ -41,7 +41,7 @@ Will train sparse graphs using 20,000 data points with the 10th initialization. 
 Note that in the case of initialization, the code expects the initialization code and weights saved (init_models.py) to be run first.  
 
 ## Test predictions (test_prediction.py)
-This code gets the test predictions from trained models all 10 initalization seeds as class labels and probabilies and can be used for hard voting and soft voting.
+This code gets the test predictions from trained models all 10 initialization seeds as class labels and probabilies and can be used for hard voting and soft voting.
 
 ## Ensemble methods (ensemble.py)
 This code gives you the hard voting and soft voting results from the 10 initializations. 

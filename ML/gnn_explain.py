@@ -23,7 +23,7 @@ from matplotlib import cm
 # This code is used to try to visualize and interpret the GNN model. Results of GNNExplainer are 
 # in the APpendix section of our manuscript. 
 #----------------------------------Import Data (choose 1)-------------------------------------#
-from simple_norm_segment_pyg_graph import * 
+frompyg_graphs import * 
 
 #dataset_og = simple_graph_norm_seg350(root = 'Graphs/g_seg350/normalized/') # original dataset
 dataset_og = simple_graph_norm_seg600(root = 'Graphs/g_seg600/normalized/') # original dataset

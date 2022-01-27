@@ -12,6 +12,7 @@ The code is run with the following versions:
 * skimage: 0.18.1
 
 Segmentation to replicate sparse, medium, and dense node densities as in paper:
+ 
  Subdataset 1:
  * sparse: 350 segments
  * medium: 600 segments

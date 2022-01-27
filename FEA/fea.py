@@ -130,12 +130,9 @@ def hyp_postbuck(L,w,E,nu,P,f_name,disp_ini,disp_fin,d_disp_inc):
     return Fy,u,disp_ini + d_disp - d_disp_inc,symm,eig_val
 
 #-----------------------------OS Commands------------------------------------#
-batch = int(sys.argv[1]) # batch number
-num = int(sys.argv[2]) # array in batch
-n = int(sys.argv[3]) # total in batch
-mesh_num = (batch-1)*n+num
-f_mesh = 'mesh/mesh'+str(mesh_num)+'.xml' # Directory to mesh
-f_lr = 'lr/lr'+str(batch)+'.txt' # Directory to .txt that save results
+num = int(sys.argv[1]) # array in batch
+f_mesh = 'mesh/mesh'+str(num)+'.xml' # Directory to mesh
+f_lr = 'lr/lr.txt' # Directory to .txt that save results
 
 #----------------------Beam and Material Parameters------------------------------------------------#
 L = 40.0 # 40.0 for subdataset1; 800.0 for subdataset2 and subdataset 3
@@ -166,14 +163,8 @@ eig_val = sol[-1]
 Fy = sol[0]
 print(Fy)
 print(lr,'Line:',num,'Batch:',batch)
-#------------------------------Save LR symmetry breaking------------------------------------------------------------------------------------------#
-#Note: This file should be initialized in advance (see instructions). Modify to save in preferred method.
-lines_lr = open(f_lr).read().splitlines()
 
-lines_lr[num] = str(lr)
-lr_file = open(f_lr, 'w').write('\n'.join(lines_lr))
-
-#-----------------------Save plot-------------------------------------------#
+#-----------------------Save deformation plot-------------------------------------------#
 # Uncomment to see displacement profile.
 
 #u = sol[1]

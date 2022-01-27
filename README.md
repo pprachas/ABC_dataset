@@ -15,7 +15,7 @@ The FEA folder can be skiiped if labels are already obtained.
 ![dataset_fig](https://user-images.githubusercontent.com/89213088/150606555-056172a1-1d02-45f6-9191-ae99596bb81c.png)
 
 ## Domain
-The Domain folder contains code to generate the domain geometry for ABC dataset. More deatils of the code are contained in the folder.
+The Domain folder contains code to generate the domain geometry for ABC dataset. More details of the code are contained in the folder.
 
 ## FEA
 The Domain folder contains code to labels for ABC dataset. More deatils of the code are contained in the folder.

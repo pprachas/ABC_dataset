@@ -14,6 +14,8 @@ This code is for changing the networkx graphs to PyG datasets. More information 
 
 Once the graphs are in PyG datasets, the remaining codes can be used. 
 
+The protocols are shuffling and splitting the data into train, validation and test can also be found here. 
+
 ## PointNet++ Implementation (Pointnet_layer.py)
 This code is our implementation of the PointNet++ layer as well as the ML architecture. The original paper of PointNet++ can be found [here](https://arxiv.org/abs/1706.02413).
 
@@ -22,7 +24,7 @@ This code initializes the weights for the 10 seeds used in our manuscript. Tyhe 
 
 ## Train ML model (train_model.py)
 This code shuffles and splits the dataset into train, validation and test data.
-This code also gives you validation accuracy.  
+This code also prints out the training accuracy, validation accuracy and training loss.  
 
 Input arguments: 
  1. Sparse Medium or dense graphs (1, 2, 3, for sparse medium dense respectively)
@@ -36,7 +38,7 @@ For example:
 Will train sparse graphs using 20,000 data points with the 10th initialization. The subdataset will depend on the directory of the graphs. 
 
 
-Note that in the case of initlalization, the code expects the initialization code and state saved(init_models.py) to be run first.  
+Note that in the case of initlalization, the code expects the initialization code and weights saved (init_models.py) to be run first.  
 
 ## Test predictions (test_prediction.py)
 This code gets the test predictions from all 10 initalization seeds as class labels and probabilies and can be used for hard voting and soft voting.

@@ -15,7 +15,7 @@ This code is for changing the networkx graphs to PyG datasets. More information 
 Once the graphs are in PyG datasets, the remaining codes can be used. 
 
 ## PointNet++ Implementation (Pointnet_layer.py)
-This code is our implementation of the PointNet++ layer as well as the ML architecture. THe original paper of PointNet++ can be found [here](https://arxiv.org/abs/1706.02413).
+This code is our implementation of the PointNet++ layer as well as the ML architecture. The original paper of PointNet++ can be found [here](https://arxiv.org/abs/1706.02413).
 
 ## Initialization (init_models.py)
 This code initializes the weights for the 10 seeds used in our manuscript. Tyhe initialized weights are saved and will be used during training. 

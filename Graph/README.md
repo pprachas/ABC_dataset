@@ -1,6 +1,6 @@
 # Graph codes
 
-This directory contains code for to obtain graphs used in the manuscript. **Note that only networkx graphs are generated here. Code to preprocess and prepare the networkx graphs for the ML model are in the folder named "ML".** If the json files are obtained from the dataset, then look at section [Json Files](## Json Files (json_to_nx.py)). 
+This directory contains code for to obtain graphs used in the manuscript. **Note that only networkx graphs are generated here. Code to preprocess and prepare the networkx graphs for the ML model are in the folder named "ML".** If the json files are obtained from the dataset, then look at section [Json Files](#Json-Files-(json_to_nx.py)). 
 
 ## Graph generation from image (graph_gen.py)
 

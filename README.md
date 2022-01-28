@@ -10,7 +10,7 @@ Link to dataset is coming soon!
 If using the geometry files, then start from folders Domain - FEA (if you need labels) - Graph - ML.
 If using the json files, then start from folders FEA (if you need labels ) - Graph - ML.
 
-The FEA folder can be skiiped if labels are already obtained. 
+The FEA folder can be skiped if labels are already obtained. 
 
 ![dataset_fig](https://user-images.githubusercontent.com/89213088/150606555-056172a1-1d02-45f6-9191-ae99596bb81c.png)
 
@@ -18,7 +18,7 @@ The FEA folder can be skiiped if labels are already obtained.
 The Domain folder contains code to generate the domain geometry for ABC dataset. More details of the code are contained in the folder.
 
 ## FEA
-The Domain folder contains code to generate labels for the ABC dataset. More details of the code are contained in the folder.
+The FEA folder contains code to generate labels for the ABC dataset. More details of the code are contained in the folder.
 
 ## Graph
 The Graph folder contains code to generate graphs from domain geometry and json files.  More deatils of the code are contained in the folder.

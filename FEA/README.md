@@ -12,4 +12,4 @@ The code is run with the following versions:
 * Python version: 3.7.7
 * FEniCS version: 2019.1.0-PETSc
 
-Note: The current available code does not save the labels. The labels can be appended in a list and saved as a .txt file as needed. However, the labels for the graphs used in the manuscript are provided in The Boston University Institutional Repository. Link will be provided soon.
+Note: The current available code does not save the labels. The labels can be appended in a list and saved as a .txt file as needed. However, the labels for each structure used in the manuscript are provided in The Boston University Institutional Repository. Link will be provided soon.

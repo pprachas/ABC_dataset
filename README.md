@@ -18,7 +18,7 @@ The FEA folder can be skiiped if labels are already obtained.
 The Domain folder contains code to generate the domain geometry for ABC dataset. More details of the code are contained in the folder.
 
 ## FEA
-The Domain folder contains code to labels for ABC dataset. More deatils of the code are contained in the folder.
+The Domain folder contains code to generate labels for the ABC dataset. More details of the code are contained in the folder.
 
 ## Graph
 The Graph folder contains code to generate graphs from domain geometry and json files.  More deatils of the code are contained in the folder.

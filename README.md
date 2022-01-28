@@ -24,4 +24,4 @@ The FEA folder contains code to generate labels for the ABC dataset. More detail
 The Graph folder contains code to generate graphs from domain geometry and json files.  More deatils of the code are contained in the folder.
 
 ## ML
-The ML folder contains code for our  protocol for train, validation and test split, Point++ implementation, ML architecture, and voting.  More details of the code are contained in the folder.
+The ML folder contains code for our  protocol for train, validation and test split, PointNet++ implementation, ML architecture, and voting.  More details of the code are contained in the folder.

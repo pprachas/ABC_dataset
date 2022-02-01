@@ -5,7 +5,7 @@ Link to paper is coming soon!
 
 The ABC data consists of spatially heterogenous beams under compression with fixed-fixed boundary conditions. The objective is to classify each column into its buckling direction. The dataset is seperated into 3 sub-datasets, each with varying geometry. 
 
-Link to dataset is coming soon!
+[Link to dataset](https://open.bu.edu/handle/2144/43730)
 
 If using the geometry files, then start from folders Domain - FEA (if you need labels) - Graph - ML.
 If using the json files, then start from folders FEA (if you need labels ) - Graph - ML.

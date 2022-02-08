@@ -1,7 +1,7 @@
 # ABC dataset
 This is the repository for codes for ML, domain generation, graph generation of Asymmetric Buckling Columns (ABC) dataset in the paper "Learning Mechanically Driven Emergent Behavior with Message Passing Neural Networks". 
 
-Link to paper is coming soon!
+[Link to paper](https://arxiv.org/abs/2202.01380)
 
 The ABC data consists of spatially heterogenous beams under compression with fixed-fixed boundary conditions. The objective is to classify each column into its buckling direction. The dataset is seperated into 3 sub-datasets, each with varying geometry. 
 
